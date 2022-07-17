@@ -11,12 +11,12 @@ public class Main {
         int bonus;
 
 
-        if ( replenishment > 1000) {
+        if (replenishment > 1000) {
 
-            bonus = ( replenishment / bonusValue);
+            bonus = (replenishment / bonusValue);
 
-            System.out.println(( replenishment / bonusValue) + " бонусов ");
-            System.out.println(bonus + (balans + replenishment ) + " баланс ");
+            System.out.println((replenishment / bonusValue) + " бонусов ");
+            System.out.println(bonus + (balans + replenishment) + " баланс ");
         } else {
 
             System.out.println(" нет бонусов " + (balans + replenishment) + " баланс ");
